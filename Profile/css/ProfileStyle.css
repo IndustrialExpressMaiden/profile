@@ -1,0 +1,122 @@
+/* General Rules */
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-family: "Butterfly Kids";
+  font-size: 21px;
+  margin:0;
+  color: indigo;
+}
+
+img {
+  max-width:100%;
+}
+
+h1  { 
+  font-weight: 100;
+  margin:0;
+} 
+
+h4 {
+  font-size: 1.1em;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin:0;
+  width: 100%;
+}
+
+/* Header*/
+  .title-box {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px mediumpurple solid;
+  }
+  
+  .logo {
+    width: 70px;
+    border-radius:80px;
+    margin: 1em;
+  }
+  
+  .title-text {
+    text-align: right;
+    margin: 1em;
+  }
+  
+  .title-text h4 {
+    margin:0;
+  }
+
+/* Main Profile*/
+  .profile { 
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .hero-image {
+    width:700px;
+    max-width: 100%;
+    margin: 1em 0;
+  }
+
+  .featured {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0;
+  }
+  
+  .feature-title {
+    margin:  5px 20px;
+  }
+  
+  .work {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: start;
+    width: 180px;
+    margin: 1em;
+  }
+
+  .box-image {
+    width: 100%;
+  }
+/* Size Adjustments */
+  @media only screen and (min-width: 460px) {
+    .featured {
+      width:460px;
+    }
+  }
+
+  @media only screen and (min-width: 950px) {
+    body{
+      font-size:22px;
+    }
+    
+    h1 {
+      font-size:2.5em;
+    }
+    
+    h3 {
+      font-size: 1.7em;
+    }
+    
+    .logo {
+      width: 110px
+    }
+    
+    p {
+      font-weight: bold;
+    }
+    
+    .featured {
+      width:100%;
+      max-width:1000px;
+    }
+  }
