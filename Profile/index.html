@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Butterfly Kids" >
   <!--Source: https://fonts.google.com/specimen/Butterfly+Kids -->
   <link rel="stylesheet" href="css/ProfileStyle.css">
+  <script src="serverload.js"></script> 
 <!--- <link rel="manifest" href="/manifest.webmanifest"> -->
 </head>
 
@@ -76,12 +77,5 @@
       </div>
     </div>
   </section>
-  <script>
-    if('serviceWorker' in navigator) {
-      navigator.serviceWorker
-      .register('sw.js')
-      .then(function() { console.log("Service Worker Registered"); });
-    }
-    </script>
 </body>
 </html>

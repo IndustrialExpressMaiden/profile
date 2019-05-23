@@ -1,8 +1,8 @@
 let currentCache = "profile-v1";
 let itemsToCache = [
-  "/index.html",
-  "/css/ProfileStyle.css",
-  "/image/face.jpg",
+  "./index.html",
+  "./css/ProfileStyle.css",
+  "./image/face.jpg",
 ];
 
 self.addEventListener("install", event => {
